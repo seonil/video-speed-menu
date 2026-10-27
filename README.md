@@ -23,7 +23,7 @@ Windows PC 기준 안내입니다. Chrome 웹 스토어 등록 없이, ZIP을 �
 
 ## 2. 확장 프로그램 다운로드와 압축 해제
 
-1. **[Brave용 ZIP 다운로드](https://github.com/seonil/video-speed-menu/releases/latest/download/video-speed-menu-brave.zip)**를 누릅니다. GitHub 로그인은 필요하지 않습니다.
+1. [Brave용 ZIP 다운로드](https://github.com/seonil/video-speed-menu/releases/latest/download/video-speed-menu-brave.zip)를 누릅니다. GitHub 로그인은 필요하지 않습니다.
 2. 내려받은 `video-speed-menu-brave.zip`을 마우스 오른쪽 버튼으로 누르고 **압축 풀기**를 선택합니다.
 3. 압축을 푼 `video-speed-menu` 폴더를 계속 보관할 위치로 옮깁니다. 예: `문서\Browser Extensions\video-speed-menu`.
 4. 폴더 안에 다음 파일이 바로 들어 있는지 확인합니다.
