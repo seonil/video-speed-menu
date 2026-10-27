@@ -2,7 +2,7 @@
   "use strict";
   if (document.querySelector("#video-speed-menu-root")) return;
 
-  const SPEEDS = [1, 1.25, 1.5, 2, 3, 4, 5, 6, 7, 8];
+  const SPEEDS = [1, 1.25, 1.5, 2, 3, 4];
   const host = document.createElement("div");
   host.id = "video-speed-menu-root";
   host.style.cssText = "position:fixed;z-index:2147483647;display:none;pointer-events:auto";
@@ -168,13 +168,13 @@
     if (next !== activeVideo) {
       activeVideo = next;
       samples = [];
-      desiredRate = activeVideo?.playbackRate ?? 1;
+      desiredRate = Math.min(activeVideo?.playbackRate ?? 1, 4);
       updateButtons();
     }
     if (activeVideo) {
       if (keep.checked) applyRate();
       else if (Math.abs(activeVideo.playbackRate - desiredRate) >= 0.01) {
-        desiredRate = activeVideo.playbackRate;
+        desiredRate = Math.min(activeVideo.playbackRate, 4);
         updateButtons();
       }
       sampleProgress();

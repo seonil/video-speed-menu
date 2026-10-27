@@ -1,12 +1,19 @@
 {
   "manifest_version": 3,
   "name": "Video Speed Menu",
-  "version": "1.0.0",
-  "description": "HTML5 비디오에 1배속부터 8배속까지 선택할 수 있는 메뉴와 실측 배속을 표시합니다.",
-  "content_scripts": [{
-    "matches": ["http://*/*", "https://*/*"],
-    "js": ["content.js"],
-    "all_frames": true,
-    "run_at": "document_idle"
-  }]
+  "version": "1.0.1",
+  "description": "HTML5 비디오에 1배속부터 4배속까지 선택할 수 있는 메뉴와 실측 배속을 표시합니다.",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "all_frames": true,
+      "run_at": "document_idle"
+    }
+  ]
 }

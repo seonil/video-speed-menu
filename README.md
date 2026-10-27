@@ -2,7 +2,7 @@
 
 **Brave에서 비디오를 원하는 속도로 재생하는 확장 프로그램입니다.**
 
-HTML5 비디오 위에 **1배속부터 8배속까지** 선택할 수 있는 메뉴를 표시합니다. 선택한 배속과 영상 진행량으로 계산한 실측 배속을 함께 볼 수 있습니다.
+HTML5 비디오 위에 **1배속부터 4배속까지** 선택할 수 있는 메뉴를 표시합니다. 선택한 배속과 영상 진행량으로 계산한 실측 배속을 함께 볼 수 있습니다.
 
 **[Brave용 확장 프로그램 ZIP 다운로드](https://github.com/seonil/video-speed-menu/releases/latest/download/video-speed-menu-brave.zip)**
 
@@ -66,7 +66,6 @@ video-speed-menu/
 | 기본 속도 | 1× |
 | 조금 빠르게 | 1.25×, 1.5× |
 | 빠르게 | 2×, 3×, 4× |
-| 더 빠르게 | 5×, 6×, 7×, 8× |
 
 ![영상 위 배속 메뉴와 실측 배속](docs/images/03-speed-menu.jpg)
 
